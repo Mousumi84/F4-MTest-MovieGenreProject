@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/F4-MTest-MovieGenreProject/static/css/main.a89c9cf5.css",
+    "main.js": "/F4-MTest-MovieGenreProject/static/js/main.763346af.js",
+    "index.html": "/F4-MTest-MovieGenreProject/index.html",
+    "main.a89c9cf5.css.map": "/F4-MTest-MovieGenreProject/static/css/main.a89c9cf5.css.map",
+    "main.763346af.js.map": "/F4-MTest-MovieGenreProject/static/js/main.763346af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a89c9cf5.css",
+    "static/js/main.763346af.js"
+  ]
+}
