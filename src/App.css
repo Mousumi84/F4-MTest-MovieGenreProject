@@ -1,0 +1,77 @@
+#main {
+    width: 90vw;
+    height: 95vh;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+    h1 {
+        text-align: center;
+    }
+    
+
+    /*Genre*/
+
+    #genre {
+        background-color: rgb(237, 235, 235);
+        border-radius: 7px;
+        padding: 10px 20px ;
+
+        #genrerow {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            .genrebtn {
+                background-color: rgba(154, 153, 153, 0.338);
+                border: none;
+                border-radius: 5px;
+                padding: 8px;
+                font-weight: 600;
+                font-size: 12px;
+                
+            }
+        }
+
+    }
+
+    /*Movie*/
+
+    #movie {
+        background-color: rgba(154, 153, 153, 0.338);
+        border-radius: 7px;
+        width: 100%;
+
+
+        thead {
+            text-align: left;
+            
+        
+        th {
+            background-color: rgb(237, 235, 235);
+        }
+        }
+
+        tr {
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            height: 30px;
+        }
+
+        th,td {
+            padding-left: 8px ;
+        }
+
+
+
+        .movierow:hover {
+                background-color: rgb(237, 235, 235);
+        }
+
+    }
+
+}

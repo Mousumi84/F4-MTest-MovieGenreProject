@@ -13,12 +13,12 @@ function Genre() {
     return (
         <>
             <div id="genre">
-                <h3 id='genrefilter'>Filter by Geenre</h3>
-                <div id='genrebtns'>
+                <h2 id='genrefilter'>Filter by Geenre</h2>
+                <div id='genrerow'>
                     {
                         genres.map(index => {
                             return (
-                                <button className="genrerow" onClick={clickfun} key={index}>{index}</button>
+                                <button className="genrebtn" onClick={clickfun} key={index}>{index}</button>
                             )
                         })
                     }
