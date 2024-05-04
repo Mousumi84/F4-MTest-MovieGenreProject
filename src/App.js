@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Genre from "./GenreSection";
+import Movie from "./MovieSection";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+  return(
+    <>
+      <div id='main'>
+        <h1>Top 15 Movies of All Time</h1>
+        <div id='genrebox'> 
+          <Genre />
+        </div>
+        <div id='moviebox'>
+          <Movie />
+        </div>
+      </div>
+    </>
+  )
 }
+
 
 export default App;
